@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Replace Elements</title>
+	</head>
+	<body>
+		<h1>Replace elements from array</h1>
+		<h3>splice() method</h3>
+		The splice() method changes the contents of an array by replacing existing
+		elements. <br />
+		<br />
+		The splice() method also cut the elements from array. <br />
+		<br />
+		# Array.splice(position to delete,items to delete,new_element); <br />
+		<br />
+		let languages = ['C', 'C++', 'Java', 'JavaScript']; <br />
+		<br />
+
+		languages.splice(1, 1, 'Python'); <br /><br />
+
+		Output : ["C", "Python", "Java", "JavaScript"] <br />
+		<br />
+
+		# Array.splice(position to delete,items to
+		delete,new_element_1,new_element_2,new_element_3,...); <br /><br />
+		languages.splice(2, 1, 'C#', 'Swift', 'Go');<br />
+		<br />
+
+		Output : ["C", "Python", "C#", "Swift", "Go", "JavaScript"] <br />
+		<br />
+
+		const fruits = ['Apple', 'Orange', 'Mango', 'Banana']; <br />
+		<br />
+		const replace = fruits.splice(1, 2, 'Cherry', 'Watermelon'); <br /><br />
+		console.log(fruits); <br /><br />
+		Output : ['Apple', 'Cherry', 'Watermelon', 'Banana'] <br /><br />
+		console.log(replace); <br /><br />
+		Output : ['Orange', 'Mango']
+
+		<script src="./replaceElemenrts.js"></script>
+	</body>
+</html>
