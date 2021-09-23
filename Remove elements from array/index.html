@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Remove Elements</title>
+	</head>
+	<body>
+		<h1>Remove elements from array</h1>
+		<h3>splice() method</h3>
+		The splice() method can remove the elements of an array.<br />
+		<br />
+		# Array.splice(position,num); <br />
+		<br />
+		# remove first two elements from the beginning of an array: <br />
+		<br />
+		let scores = [1, 2, 3, 4, 5]; <br />
+		<br />
+
+		let deletedScores = scores.splice(0, 3); <br />
+		<br />
+
+		console.log(scores); <br /><br />
+		console.log(deletedScores); <br /><br />
+		Output(scores) : [4, 5] <br />
+		<br />
+		Output(deletedScores) : [1, 2, 3] <br />
+		<br />
+	</body>
+	<script src="./removeElements.js"></script>
+</html>
