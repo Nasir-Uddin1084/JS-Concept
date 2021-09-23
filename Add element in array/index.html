@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Learning the DOM</title>
+	</head>
+	<body>
+		<h1>Add elements</h1>
+		<p>
+			<h3>splice() method</h3>
+			The splice() method changes the contents of an array by removing <br> or replacing existing elements and/or adding new elements. <br> <br>
+			To add new elements with Array.splice(), <br>
+			 just set the deleteCount to zero and pass new items:
+			<br> <br>
+			# Array.splice(position,0,new_element_1); <br /><br />
+			let colors1 = ['red', 'green', 'blue']; <br />
+			colors1.splice(2, 0, 'purple'); <br />
+			<br />
+			Output : ["red", "green", "purple", "blue"] <br /><br />
+			# Array.splice(position,0,new_element_1,new_element_2,....); <br /><br />
+			let colors1 = ['red', 'green', 'blue']; <br />
+			splice(1, 0, 'yellow', 'pink'); <br />
+			<br />
+			Output : ["red", "yellow", "pink", "green", "purple", "blue"] <br /><br />
+		</p>
+
+		<script src="add.js"></script>
+	</body>
+</html>
