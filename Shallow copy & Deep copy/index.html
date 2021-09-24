@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Shallow & Deep Copy</title>
+	</head>
+	<body>
+		<h1>Shallow Copy & Deep Copy</h1>
+		<p>There are 2 types of array cloning: shallow & deep.</p>
+		<h3>Shallow Copy</h3>
+		<p>
+			Shallow copy is a bit-wise copy of an object. A new object is created that
+			has an exact copy of the values in the original object. <br />
+			just the reference addresses are copied i.e., only the memory address is
+			copied.it will affect the origin one
+		</p>
+		<h3>Deep Copy</h3>
+		<p>
+			A deep copy means actually creating a new array and copying over the
+			values, since whatever happens to it will never affect the origin one.
+		</p>
+		<img src="./shallowDeepCopy.png" alt="shallowDeepCopy" />
+		<script src="./shallowDeepCopy.js"></script>
+	</body>
+</html>

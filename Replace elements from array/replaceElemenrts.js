@@ -18,3 +18,13 @@ const replace = fruits2.splice(1, 2, 'Cherry', 'Watermelon');
 console.log(fruits2); // ['Apple', 'Cherry', 'Watermelon', 'Banana']
 console.log(replace); // ['Orange', 'Mango']
 
+let rifels = ['AKM', 'M416', 'M16A4', 'SMG', 'Pistol'];
+let snipers = ['AWM', 'Kar98', 'M24', 'Mini'];
+
+console.log(rifels);
+console.log(snipers);
+
+let lastElement = rifels.pop();
+snipers.push(lastElement);
+console.log(rifels);
+console.log(snipers);
