@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Data Convert</title>
+	</head>
+	<body>
+		<h1>Data Convert</h1>
+		<h4>1. Converting Number to String</h4>
+		<p>
+			let num = 1; <br />
+			let numCon = String(num); <br />
+			console.log(numCon); <br />
+			Or,
+			<br />
+			let num1 = 10; <br />
+			let num1Con = num1.toString(); <br />
+			console.log(typeof num1Con);
+		</p>
+		<h4>2. Converting Array to String</h4>
+		<p>
+			str1 = String([9, 8, 7, 6, 5, 4, 3, 2, 1, 0]); <br />
+			console.log(str1); <br />
+			Or, <br />
+			let str2 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]; <br />
+			str3 = String(str2); <br />
+			console.log(str3);
+		</p>
+		<h4>3. Converting Array String to Number</h4>
+		<p>
+			strCon = Number(['9', '8', '7', '6', '5', '4', '3', '2', '1', '0']);
+			<br />
+			console.log(strCon); <br />
+			Or, <br />
+			let str4 = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']; <br />
+			let str4Con = Number(str4); <br />
+			console.log(str4Con);
+		</p>
+		<h4>4. Converting Boolean data type to String</h4>
+		<p>
+			let boolean = false; <br />
+			let booleanCon = boolean.toString(); <br />
+			<br />
+			let boolean1 = true; <br />
+			let boolean1Con = String(boolean1);
+		</p>
+		<h4>5. Converting Boolean data type to Number</h4>
+		<p>
+			let bool = false; <br />
+			console.log(bool); <br />
+			console.log(Number(bool)); <br /><br />
+			let bool = true; <br />
+			console.log(bool); <br />
+			console.log(Number(bool));
+		</p>
+		<h4>6. Converting Date to String</h4>
+		<p>
+			let todayDate = new Date(); <br />
+			console.log(todayDate); <br />
+			console.log(todayDate.toString()); <br />
+			Or,
+			<br />
+			let dateNow = String(new Date()); <br />
+			console.log(dateNow);
+		</p>
+		<h2>You will find every output in the console.</h2>
+		<script src="./dataConvert.js"></script>
+	</body>
+</html>
