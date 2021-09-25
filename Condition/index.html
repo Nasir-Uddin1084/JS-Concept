@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Condition</title>
+</head>
+
+<body>
+  <h1>Condition</h1>
+  <h2> JavaScript includes following forms of if-else conditions:</h2>
+  <ol>
+    <li>if condition</li>
+    <li>if-else condition</li>
+    <li>else if condition</li>
+  </ol>
+  <h3>if condition</h3>
+  <p>
+    Use if conditional statement if you want to execute something based on some condition.
+  </p>
+  <p>
+    if (condition) { <br>
+    statement1 <br>
+    } else { <br>
+    statement2 <br>
+    } <br>
+  <p>
+  <h3>else condition</h3>
+  <p>
+    Use else statement when you want to execute the code every time when if condition evaluates to false.
+  </p>
+  <h4>condition</h4>
+  An expression that is considered to be either truth or false.
+  </p>
+  <p>
+  <h4>statement1</h4>
+  Statement that is executed if condition is truthy. Can be any statement, including further nested if statements. <br>
+  To execute multiple statements, use a block statement ({ ... }) to group those statements. To execute no statements,
+  <br> use an empty statement.
+  </p>
+  <p>
+  <h4>statement2</h4>
+  Statement that is executed if condition is falsy and the else clause exists. Can be any statement, including block
+  statements and further nested if statements.
+  </p>
+  </p>
+  <h3>else if condition</h3>
+  <p>
+    Use "else if" condition when you want to apply second level condition after if statement.
+  </p>
+  <p>
+  <h5>
+    Syntax:
+  </h5>
+  if(condition expression) <br>
+  {<br>
+  //Execute this code block <br>
+  } <br>
+  else if(condition expression){ <br>
+  //Execute this code block <br>
+  }
+  </p>
+  <h4>
+    Points to Remember :
+  </h4>
+  <p>
+  <ul>
+    <li>
+      Use if-else conditional statements to control the program flow.
+    </li>
+    <li>
+      JavaScript includes three forms of if condition: if condition, if else condition and else if condition.
+
+    </li>
+    <li>
+      The if condition must have conditional expression in brackets () followed by single statement or code block
+      wrapped with { }.
+
+    </li>
+    <li>
+      'else if' statement must be placed after if condition. It can be used multiple times.
+
+    </li>
+    <li>
+      'else' condition must be placed only once at the end. It must come after if or else if statement.
+
+    </li>
+  </ul>
+  </p>
+  <h3>
+    switch condition
+  </h3>
+  <p>
+    The switch is a conditional statement like if statement. Switch is useful when you want to execute one of the
+    multiple <br> code blocks based on the return value of a specified expression.
+  </p>
+  <p>
+  <h5>
+    Syntax:
+  </h5>
+  switch(expression or literal value){ <br>
+  case 1: <br>
+  //code to be executed <br>
+  break; <br>
+  case 2: <br>
+  //code to be executed <br>
+  break; <br>
+  case n: <br>
+  //code to be executed <br>
+  break; <br>
+  default: <br>
+  //default code to be executed <br>
+  //if none of the above case executed <br>
+  } <br>
+  </p>
+  <p>As per the above syntax, switch statement contains an expression or literal value. An expression will return a
+    value when evaluated. <br> The switch can includes multiple cases where each case represents a particular value.
+    Code under particular case will be executed <br> when case value is equal to the return value of switch expression.
+    If none of the cases match with switch expression value then the <br> default case will be executed.
+  </p>
+  <h4>
+    Points to Remember :
+  </h4>
+  <ul>
+    <li>
+      The switch is a conditional statement like if statement.
+    </li>
+    <li>
+      A switch statement includes literal value or is expression based
+    </li>
+    <li>
+      A switch statement includes multiple cases that include code blocks to execute.
+    </li>
+    <li>
+      A break keyword is used to stop the execution of case block.
+    </li>
+    <li>
+      A switch case can be combined to execute same code block for multiple cases.
+    </li>
+  </ul>
+
+  <script src="./condition.js"></script>
+</body>
+
+</html>
